@@ -146,3 +146,133 @@ width:300px;
 border-radius:5px;
 margin-bottom:50px;
 }
+
+
+/* Partie artistes */
+
+/* Colonnes */
+.colonne {
+  float: left;
+  width: 33%;
+  text-align:left;
+  margin-bottom:50px;
+}
+
+/* Suppresion des colonnes */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Decalage des noms */
+.nom{
+  margin-left:40%;
+}
+
+/* Partie boutique */
+
+/* Bloc */
+.bloc2{
+display: flex;
+}
+
+/* Taille des images */
+.images2{
+width: 275px;
+height: 250px;
+margin-bottom:10px;
+margin-top:25px;
+}
+
+.images3{
+width: 225px;
+height: 250px;
+margin-bottom:10px;
+margin-top:25px;
+}
+
+.images4{
+width: 200px;
+height: 275px;
+margin-bottom:10px;
+}
+
+/* Emplacement des titres */
+.imageboutique{
+display: flex;
+float:left;
+width: 33%;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: center;
+text-align:center;
+}
+
+/* Texte */
+.textboutique {
+	line-height:1.5;
+}
+.textboutique span {
+	font-weight:bold;
+	margin-top:10px;
+}
+	
+/* Aggrandissment */
+.images2:hover, .images3:hover, .images4:hover{
+	scale:1.2;
+}
+
+/* Partie A propos */
+
+/* Texte */
+h2 {
+	margin-top:75px;
+	margin-left:75px;
+}
+#a_propos p{
+	margin-left:75px;
+	margin-right:75px;
+	text-align:justify;
+}
+
+/* Cacher une partie du texte */
+#more {
+	display:none;
+}
+
+/* Bouton voir plus */
+#myBtn{
+	padding:0px;
+	border:none;
+	background-color:white;
+	margin-left:75px;
+	text-decoration-line:underline;
+	cursor:pointer;
+	color:black;
+	font-size:15px;
+}
+
+/* Partie nous contacter */
+
+/* Texte */
+#nous_contacter p{
+	margin-left:75px;
+	margin-right:75px;
+	text-align:justify;
+}
+
+/* Map */
+#nous_contacter img {
+	display:block;
+	width:90%;
+	height:600px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+
+/* Icones */
+#nous_contacter i{
+	margin-right:10px;
+}
