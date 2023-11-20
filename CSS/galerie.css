@@ -34,3 +34,43 @@ nav ul li a:hover{
 #galerie img{
 	width:100%;
 }
+
+/* main */
+
+/* Rectangle couleur */
+main{
+margin-top: 50px;
+padding: 30px;
+background: #ADD8E6;
+}
+
+/* Bloc */
+.bloc{
+display: flex;
+margin-top: 25px;
+}
+
+/* Taille des images */
+.images{
+width: 250px;
+height: 250px;
+}
+
+/* Emplacement des titres */
+.card-main{
+display: flex;
+float:left;
+width: 33%;
+padding-bottom: 0px;
+flex-direction: column;
+align-items: center;
+}
+
+/* Separation */
+hr.separation{
+margin-top:50px;
+border: 3px solid #ADD8E6;
+width:300px;
+border-radius:5px;
+margin-bottom:50px;
+}
