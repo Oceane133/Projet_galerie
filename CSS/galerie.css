@@ -35,6 +35,78 @@ nav ul li a:hover{
 	width:100%;
 }
 
+/* Container de la diapo */
+
+/* Positionner le container */
+.container {
+  max-width:300px;
+  position: relative;
+  margin:auto; 
+  margin-top:100px;
+}
+
+/* Taille des images */
+.slider_image{
+    width: 300px;
+	height:300px;
+	
+  }
+
+/* Cacher les images par default */
+.mySlides {
+  display: none;
+}
+
+/* Texte sous la diapo */
+.text {
+	color:black;
+    font-size: 15px;
+    width: 100%;
+    text-align: center;
+  }
+.text span {
+	font-weight:bold;
+}
+
+/* Bouton precedent et suivant */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: darkgray;
+  font-weight: bold;
+  font-size: 20px;
+  user-select: none;
+}
+
+/* Position des boutons */
+.next {
+  right: -100px;
+  transform:scaleX(1.5);
+}
+.prev {
+  left: -100px;
+  transform:scaleX(-1.5);
+}
+
+/* Fond noir sur fleche */
+.prev:hover, .next:hover {
+    color:gray;
+}
+
+/* Numerotation */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
 /* main */
 
 /* Rectangle couleur */
