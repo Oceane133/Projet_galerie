@@ -309,3 +309,29 @@ nav li a {
   width:70px;
   margin-top:20px;
 }
+
+/* Positionner le container */
+.container {
+  max-width:100px;
+  position: relative;
+  margin:auto; 
+  margin-top:30px;
+}
+
+/* Taille des images */
+.slider_image{
+    width:100px;
+	height:100px;	
+}
+
+/* Texte sous la diapo */
+.text {
+	color:black;
+    font-size: 8px;
+}
+
+.prev,
+.next {
+  padding: 25px;
+  font-size: 8px;
+}
