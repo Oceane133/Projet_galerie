@@ -290,3 +290,7 @@ h2 {
 #nous_contacter i{
 	margin-right:10px;
 }
+
+/* responsive */
+
+@media screen and (max-width: 600px) {
