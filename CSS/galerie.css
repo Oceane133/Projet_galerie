@@ -294,6 +294,13 @@ h2 {
 /* responsive */
 
 @media screen and (max-width: 600px) {
+
+/* général */
+
+body{
+	font-size:10px;
+}
+	
 /* Logo */
 #logo img{
 	width:50px;
