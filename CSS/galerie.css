@@ -305,7 +305,7 @@ h2 {
 	margin-right:10px;
 }
 
-/* responsive */
+				/* responsive */
 
 @media screen and (max-width: 600px) {
 
@@ -320,8 +320,6 @@ body{
 	width:50px;
 	height:50px;
 	margin-left:5px;
-	margin-bottom:20px;
-	margin-top:10px;
 }
 
 nav li a {
@@ -330,6 +328,8 @@ nav li a {
   margin-top:20px;
 }
 
+/* Container de la diapo */
+	
 /* Positionner le container */
 .container {
   max-width:100px;
@@ -365,7 +365,6 @@ height: 80px;
 /* Separation */
 hr.separation{
 	width:150px;
-	border-radius:5px;
 	margin-bottom:25px;
 }
 
@@ -392,6 +391,8 @@ hr.separation{
 	height: 70px;
 }
 
+/* Partie A Propos */
+	
 /* Texte */
 h2 {
 	margin-top:30px;
@@ -402,7 +403,6 @@ h2 {
 #a_propos p{
 	margin-left:25px;
 	margin-right:25px;
-	text-align:justify;
 }
 
 /* Bouton voir plus */
