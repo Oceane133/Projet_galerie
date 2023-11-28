@@ -308,7 +308,6 @@ body{
 	margin-left:5px;
 	margin-bottom:20px;
 	margin-top:10px;
-	float:left;
 }
 
 nav li a {
@@ -320,8 +319,6 @@ nav li a {
 /* Positionner le container */
 .container {
   max-width:100px;
-  position: relative;
-  margin:auto; 
   margin-top:30px;
 }
 
@@ -333,7 +330,6 @@ nav li a {
 
 /* Texte sous la diapo */
 .text {
-	color:black;
     font-size: 8px;
 }
 
