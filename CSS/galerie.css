@@ -338,3 +338,80 @@ nav li a {
   padding: 25px;
   font-size: 8px;
 }
+
+	
+/* Main */
+
+/* Taille des images */
+.images{
+width: 80px;
+height: 80px;
+}
+
+/* Separation */
+hr.separation{
+	width:150px;
+	border-radius:5px;
+	margin-bottom:25px;
+}
+
+/* Partie artistes */
+
+/* Colonnes */
+.colonne {
+	width: 50%;
+}
+
+/* Taille des images */
+.images2{
+	width: 98px;
+	height: 84px;
+}
+
+.images3{
+	width: 90px;
+	height: 86px;
+}
+
+.images4{
+	width: 85px;
+	height: 70px;
+}
+
+/* Texte */
+h2 {
+	margin-top:30px;
+	margin-left:25px;
+	margin-right:25px;
+}
+
+#a_propos p{
+	margin-left:25px;
+	margin-right:25px;
+	text-align:justify;
+}
+
+/* Bouton voir plus */
+#myBtn{
+	margin-left:25px;
+	font-size:10px;
+}
+
+/* Partie nous contacter */
+
+/* Texte */
+#nous_contacter p{
+	margin-left:25px;
+	margin-right:25px;
+}
+
+/* Map */
+#nous_contacter img {
+	display:block;
+	width:90%;
+	height:160px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:50px;
+}
+
