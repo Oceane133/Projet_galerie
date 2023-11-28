@@ -149,6 +149,7 @@ background: #ADD8E6;
 .bloc{
 display: flex;
 margin-top: 25px;
+flex-wrap: wrap;
 }
 
 /* Taille des images */
@@ -358,8 +359,13 @@ height:100px;
 
 /* Taille des images */
 .images{
-width: 80px;
-height: 80px;
+width: 100px;
+height: 100px;
+}
+
+.card-main{
+width:50%;
+margin-bottom:25px;
 }
 
 /* Separation */
