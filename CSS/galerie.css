@@ -58,9 +58,7 @@ nav ul li a:hover{
 	background:#DCDCDC;
 }	
 
-/* body */
-
-	/* page 1 */
+/* Image galerie*/
 
 #galerie img{
 	width:100%;
@@ -177,7 +175,6 @@ width:300px;
 border-radius:5px;
 margin-bottom:50px;
 }
-
 
 /* Partie artistes */
 
@@ -341,8 +338,8 @@ nav li a {
 
 /* Taille des images */
 .slider_image{
-    width:100px;
-	height:100px;	
+width:100px;
+height:100px;	
 }
 
 /* Texte sous la diapo */
@@ -350,12 +347,12 @@ nav li a {
     font-size: 8px;
 }
 
+/* boutons précédent et suivant */
 .prev,
 .next {
   padding: 25px;
   font-size: 8px;
 }
-
 	
 /* Main */
 
