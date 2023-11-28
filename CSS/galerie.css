@@ -363,6 +363,7 @@ width: 100px;
 height: 100px;
 }
 
+/* Centrer les images */
 .card-main{
 width:50%;
 margin-bottom:25px;
@@ -377,10 +378,30 @@ hr.separation{
 /* Partie artistes */
 
 /* Colonnes */
-.colonne {
+.colonne_r {
+	float: left;
 	width: 50%;
+	text-align: left;
+	margin-bottom:50px;
 }
 
+/* Décalage des noms */
+.nom_r{
+	margin-left:40%;
+}
+
+/* Partie boutique */
+
+/* bloc */
+.bloc2{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.imageboutique{
+	width:50%;
+}
+	
 /* Taille des images */
 .images2{
 	width: 98px;
@@ -393,7 +414,7 @@ hr.separation{
 }
 
 .images4{
-	width: 85px;
+	width:60px;
 	height: 70px;
 }
 
@@ -411,11 +432,20 @@ h2 {
 	margin-right:25px;
 }
 
-/* Bouton voir plus */
-#myBtn{
-	margin-left:25px;
-	font-size:10px;
+/* Bouton voir plus - voir moins */
+#ch:checked ~ #more {
+	display: block;
+	
 }
+
+#ch:checked ~ #more2 {
+	display: block;
+	
+}
+
+label{
+	margin-left:25px;
+}	
 
 /* Partie nous contacter */
 
