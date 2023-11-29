@@ -179,6 +179,10 @@ margin-bottom:50px;
 
 /* Partie artistes */
 
+.row_{
+display:none;
+}
+
 /* Colonnes */
 .colonne {
   float: left;
@@ -265,21 +269,27 @@ h2 {
 	text-align:justify;
 }
 
-/* Cacher une partie du texte */
+/* Cacher une partie du texte et la checkbox */
 #more {
 	display:none;
 }
-
-/* Bouton voir plus */
-#myBtn{
-	padding:0px;
-	border:none;
-	background-color:white;
-	margin-left:75px;
-	text-decoration-line:underline;
-	cursor:pointer;
-	color:black;
-	font-size:15px;
+#ch{
+display: block;
+}
+	
+/* Bouton voir plus - voir moins */
+#ch:checked ~ #more{
+display: block;
+}
+	
+#ch:checked ~ #label{
+display: none;
+}
+	
+label{
+margin-left: 25px;
+cursor: pointer;
+text-decoration-line: underline;
 }
 
 /* Partie nous contacter */
@@ -376,7 +386,14 @@ hr.separation{
 }
 
 /* Partie artistes */
+.row{
+display:none;
+}
 
+.row_r{
+display:flex;
+}
+	
 /* Colonnes */
 .colonne_r {
 	float: left;
