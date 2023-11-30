@@ -183,6 +183,10 @@ margin-bottom:50px;
 display:none;
 }
 
+#artistes p{
+	line-height: 1.6;
+}
+
 /* Colonnes */
 .colonne {
   float: left;
@@ -399,7 +403,6 @@ display:flex;
 	
 #artistes p{
 	font-size:13px;
-	line-height: 1.6;
 }
 	
 /* Colonnes */
