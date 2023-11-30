@@ -179,7 +179,7 @@ margin-bottom:50px;
 
 /* Partie artistes */
 
-.row_{
+.row_r{
 display:none;
 }
 
@@ -191,7 +191,7 @@ display:none;
   margin-bottom:50px;
 }
 
-/* Suppresion des colonnes */
+/* Suppression des colonnes */
 .row:after {
   content: "";
   display: table;
