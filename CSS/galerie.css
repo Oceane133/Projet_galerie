@@ -397,6 +397,11 @@ display:none;
 display:flex;
 }
 	
+#artistes p{
+	font-size:13px;
+	line-height: 1.6;
+}
+	
 /* Colonnes */
 .colonne_r {
 	float: left;
