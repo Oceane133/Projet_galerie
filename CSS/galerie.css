@@ -246,6 +246,7 @@ text-align:center;
 .textboutique {
 	line-height:1.5;
 }
+
 .textboutique span {
 	font-weight:bold;
 	margin-top:10px;
@@ -271,10 +272,11 @@ h2 {
 
 /* Cacher une partie du texte et la checkbox */
 #more {
-	display:none;
+display:none;
 }
+
 #ch{
-display: block;
+display: none;
 }
 	
 /* Bouton voir plus - voir moins */
@@ -282,12 +284,12 @@ display: block;
 display: block;
 }
 	
-#ch:checked ~ #label{
+#ch:checked ~ label{
 display: none;
 }
 	
 label{
-margin-left: 25px;
+margin-left: 75px;
 cursor: pointer;
 text-decoration-line: underline;
 }
@@ -449,15 +451,18 @@ h2 {
 	margin-right:25px;
 }
 
+/* Cacher une partie du texte */
+#more2 {
+	display: none;
+}
+	
 /* Bouton voir plus - voir moins */
 #ch:checked ~ #more {
 	display: block;
-	
 }
 
 #ch:checked ~ #more2 {
 	display: block;
-	
 }
 
 label{
@@ -471,8 +476,11 @@ label{
 	margin-left:25px;
 	margin-right:25px;
 }
+	
 /* Map */
 #nous_contacter img {
 	width:90%;
 	height:200px;
+}
+
 }
