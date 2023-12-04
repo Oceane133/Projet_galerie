@@ -8,7 +8,7 @@ body {
 	box-sizing: border-box;
 }
 
-h1{
+h2{
 	text-align:center;
 }
 
@@ -264,7 +264,7 @@ text-align:center;
 /* Partie A propos */
 
 /* Texte */
-h2 {
+h3 {
 	margin-top:75px;
 	margin-left:75px;
 }
@@ -450,7 +450,7 @@ display:flex;
 /* Partie A Propos */
 	
 /* Texte */
-h2 {
+h3 {
 	margin-top:30px;
 	margin-left:25px;
 	margin-right:25px;
